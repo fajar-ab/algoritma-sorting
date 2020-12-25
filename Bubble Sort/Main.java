@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		int[] arrayAngka = {5,3,0,4,8,1,6,2,7,9};
-		System.out.println("Pengurutan Dengan Bubble Sort");
+		System.out.println("Pengurutan Dengan Bubble Sort\n");
 
 		System.out.println("Sebelum di Sorting:\n" + Arrays.toString(arrayAngka));
 
