@@ -15,7 +15,8 @@ public class Main {
 		System.out.println("\nSesudah di Sorting:\n" + Arrays.toString(arrayAngka));
 
 	}
-
+	
+	// method pengurutan secara ascending menggunakan buble sort.
 	private static void bubbleSort(int[] angka) {
 		for(int i = 0; i < angka.length; i++) {
 			for(int j = 0; j < angka.length - 1; j++) {

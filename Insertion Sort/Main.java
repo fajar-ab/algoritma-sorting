@@ -16,6 +16,7 @@ public class Main {
 
 	}
 
+	// method pengurutan secara ascending menggunakan insertion sort.
 	private static void insertionSort(int[] angka) {
 		for(int i = 1; i < angka.length; i++) {
 			int temp = angka[i];

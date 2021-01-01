@@ -16,6 +16,7 @@ public class Main {
 
 	}
 
+	// method pengurutan secara ascending menggunakan selection sort.
 	private static void selectionSort(int[] angka) {
 		for(int i = 0; i < angka.length - 1; i++) {
 			int index = i;
