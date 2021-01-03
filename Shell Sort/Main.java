@@ -21,7 +21,7 @@ public class Main {
 
 		for (int i = angka.length / 2; i > 0; i = i / 2)  {    
 			for (int j = i; j < angka.length; j++) {    
-				for(int k = j - i; k >= 0; k = k - i) {    
+				for(int k = j - i; k >= 0; k -= i) {    
 					if (angka[k+i] >= angka[k])    
 						break;    
 					else  {    
